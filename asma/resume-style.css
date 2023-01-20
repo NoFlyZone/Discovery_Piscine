@@ -1,0 +1,88 @@
+body{
+   background-image: url(pictures/B2.jpg);
+   background-size: 2000px;
+}
+#profile{
+   margin-left:50px;
+   margin-top: 30px;
+   margin-bottom: 0px;
+   width: 200px;
+   height: 200px;
+   border-radius: 50%;
+
+}
+#Name{
+   font-family: "Brush Script MT", cursive;
+   margin-left: 50px;
+   margin-top: 20px;
+   margin-bottom: 0px;
+   color: white;
+   font-size: 55px;
+   font-style: curciv;
+}
+#Name:hover{
+   color: rgb(104, 10, 4);
+}
+#job{
+   font-family: "Brush Script MT", cursive;
+   margin-left: 50px;
+   margin-top: 5px;
+   color: white;
+   font-size: 25px;
+}
+#job:hover{
+   color: rgb(104, 10, 4);
+}
+.social-links{
+   margin-left: 50px;
+   margin-top: 20px;
+   margin-bottom: 0px;
+}
+
+#twitter{
+   /* margin-left: 10px; */
+   /* margin-top: 30px; */
+   margin-bottom: 0px;
+   width: 55px;
+   height: 55px;
+}
+
+#facebook{
+   /* margin-left: 10px; */
+   /* margin-top: 30px; */
+   margin-bottom: 0px;
+   width: 45px;
+   height: 45px;
+}
+#instagram{
+   /* margin-left: 10px;
+   margin-top: 30px; */
+   margin-bottom: 0px;
+   width: 70px;
+   height: 50px;
+}
+#skype{
+   /* margin-left: 10px; */
+   /* margin-top: 30px; */
+   margin-bottom: 0px;
+   width: 45px;
+   height: 45px;
+}
+h2{
+   color: #d12626;
+}
+li{
+   color: rgb(243, 218, 188);
+}
+h3{
+   margin-left: 50px;
+   margin-top: 20px;
+}
+h1, h2{
+   margin-left: 20px;
+   margin-top: 10px;
+}
+p{
+   margin-left: 15px;
+   margin-top: 10px;
+}
