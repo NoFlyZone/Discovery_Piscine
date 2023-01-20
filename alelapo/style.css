@@ -1,0 +1,150 @@
+html, body {
+	background-image: url("imgs/cover_bg.jpg");
+	font-family: 'Chakra Petch', sans-serif;
+}
+
+img {
+	padding: 5px;
+	border: 1px solid black;
+
+}
+.cv{
+	height: 100vh;
+	width: 100%;
+	display: flex;
+}
+.logoImg {
+	border: none;
+	color: #f14668;
+}
+.copyR {
+	text-align: right;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	font-size: x-small;
+}
+.titolo{
+	font-family: 'Chakra Petch', sans-serif;
+	font-size: 3em !important;
+	margin-bottom: 30px !important;
+	color: #f14668;
+}
+
+.bottone {
+	margin-right: 10px;
+}
+.ciccio {
+	color: #f14668;
+}
+#cvAle {
+	display: none;
+}
+#cvLapo {
+	display: none;
+}
+.navbar{
+	width: 50px;
+	height: 100vh;
+	background-color: #f14668;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	border-left: 1px solid black;
+}
+.menu {
+	display: flex;
+	flex-direction: column;
+	color: lightgrey;
+}
+li{
+	margin-bottom: 2em;
+	text-align: center;
+}
+i:hover{
+	color: darkgray;
+}
+.curriculum {
+	width: calc(100% - 50px);
+	height: 100vh;
+	display: flex;
+}
+.fotoCv{
+	width: 150px;
+	height: auto;
+	margin-top: 20px;
+}
+.imgContainer {
+	height: 100vh;
+	width: 20%;
+	text-align: center;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+}
+.datiCurriculum {
+	width: calc((100% - 50px) - 150px);
+	height: 100%;
+	border-right: 1px solid black;
+	padding-right: 10px;
+	text-align: justify;
+}
+.titoloSezione {
+	font-size: xx-large;
+	color: #f14668;
+	display: block;
+	margin-left: 3%;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+.parametro{
+	font-weight: bolder;
+	color: #f14668;
+	display: block;
+	margin-left: 3%;
+}
+.dato {
+	margin-left: 3%;
+	display: block;
+	margin-bottom: 20px;
+}
+.main_div {
+	width: 60%;
+	margin: auto;
+}
+.didascalia {
+	display: block;
+}
+#esperienzeAle {
+	display: none;
+}
+#contattiAle {
+	display: none;
+}
+.contatti {
+	margin-bottom: 20px;
+}
+.button {
+	margin: 5px;
+}
+#esperienzeLapo {
+	display: none;
+}
+#contattiLapo {
+	display: none;
+}
+@media screen and (max-width: 1080px)
+{
+	.main_div{
+		width: 100%;
+	}
+	.imgContainer{
+		display: none;
+	}
+	.daticurriculum{
+		width: 100%;
+	}
+	.datiCurriculum{
+		width: 100%;
+		overflow: scroll;
+		padding: 10px;
+	}
+}
